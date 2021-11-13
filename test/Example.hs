@@ -1,6 +1,9 @@
 {-# LANGUAGE DeriveGeneric #-}
 
-module Example where
+module Example
+  ( machine
+  , Alphabet(..)
+  ) where
 
 import Data.Hashable (Hashable)
 import Data.HashSet (fromList, HashSet)
