@@ -26,7 +26,6 @@ source-repository head
 library
   exposed-modules:
       DFA
-      Lib
   other-modules:
       Paths_dfa_simulator
   hs-source-dirs:
