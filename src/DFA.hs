@@ -1,4 +1,8 @@
-module DFA where
+module DFA
+  ( Delta
+  , DFA(..)
+  , simulate
+  ) where
 
 import Data.HashSet (HashSet(..))
 
