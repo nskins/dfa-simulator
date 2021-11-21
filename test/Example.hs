@@ -29,11 +29,9 @@ transition state input =
       One -> Q1
     Q3 -> Q3
 
-initialState :: State
-initialState = Q1
-
-acceptStates :: HashSet State
-acceptStates = fromList [Q1]
-
 machine :: DFA State Alphabet
-machine = DFA transition initialState acceptStates
+machine = DFA
+  { delta = transition
+  , initialState = Q1
+  , acceptStates = fromList [Q1]
+  }
