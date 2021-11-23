@@ -16,6 +16,6 @@ data DFA a b = DFA
   }
 
 simulate :: (Eq a, Hashable a) => DFA a b -> [b] -> Bool
-simulate (DFA delta initialState acceptStates) string =
-  let finalState = foldl delta initialState string
+simulate (DFA delta initialState acceptStates) input =
+  let finalState = foldl delta initialState input
   in member finalState acceptStates
