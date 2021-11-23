@@ -1,7 +1,5 @@
 # DFA Simulator
 
-## Introduction
-
 A deterministic finite automaton (DFA) is a 5-tuple (`Q`, `Σ`, `δ`, `q0`, `F`), where
 - `Q` is a finite set called the states
 - `Σ` is a finite set called the alphabet
