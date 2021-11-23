@@ -14,7 +14,7 @@ extra-source-files:
 # synopsis:            Short description of your package
 # category:            Web
 
-description:         Please see the README on GitHub at <https://github.com/nskins/dfa-simulator#readme>
+description:         Please see the README on GitHub at <https://github.com/nskins/dfa-simulator#README.md>
 
 dependencies:
 - base >= 4.7 && < 5

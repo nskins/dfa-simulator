@@ -6,7 +6,7 @@ cabal-version: 1.12
 
 name:           dfa-simulator
 version:        0.1.0
-description:    Please see the README on GitHub at <https://github.com/nskins/dfa-simulator#readme>
+description:    Please see the README on GitHub at <https://github.com/nskins/dfa-simulator#README.md>
 homepage:       https://github.com/nskins/dfa-simulator#readme
 bug-reports:    https://github.com/nskins/dfa-simulator/issues
 author:         Nicholas Skinsacos
