@@ -18,3 +18,5 @@ The mathematical definition is translated into Haskell in `Example.hs`.
 The machine `M` recognizes the language `L(M)` = `{(01)^n | n is a nonnegative integer }`. That is to say that `M` accepts an input string `w` if and only if `w` is a member of `L(M)`. This is verified by the test cases given in `Spec.hs`.
 
  A state diagram is provided below to help one visualize `M`.
+
+ ![State Diagram of M](diagram.png)
